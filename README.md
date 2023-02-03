@@ -216,7 +216,7 @@ fi
 if [ $number -gt "7" ]; then
 
 echo es mes gran que 7; fi
--------------------------------------------------------------
+
 --------------COMPARADORS---------------------
 #  -lt <
 #  -gt >
@@ -240,7 +240,6 @@ then
 else
 	echo password incorrecte
 fi
-#--------------------------------------------------------------
 
 ###########COMPARADORS STRINGS#################
 #  s1=s2
@@ -248,19 +247,33 @@ fi
 #  -n s1 is not null
 #  -z s1 is null
 ###############################################
+
 #Exemple 9 case
+
 echo "Que vols menjar?"
+
 read menu
+
 case "$menu" in
+
 	"pasta")
+	
 		echo hidrats per la nit no !
+		
 	;;
+	
 	"verdura")
+	
 		echo vegguie
+		
 	;;
+	
 	*)
+	
 		echo no ho tens clar?
+		
 	;;
+	
 esac
 
 #Exemple 9 bis funció fora del document
@@ -268,14 +281,23 @@ esac
 source scriptextern.sh
 
 #Exemple 9 funcions en bash
+
 HELLO=Hello
+
 function hello {
+
 	local HELLO=World
+	
 	echo $HELLO
+	
 }
+
 echo  $HELLO
+
 hello
+
 echo $HELLO
+
 
 
 #Exemple 10 variables de programa
