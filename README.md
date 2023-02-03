@@ -6,14 +6,23 @@
 #Això es un comentari
 
 #EXEMPLE DEFINICIÓ VARIABLES
+
 echo "### EXEMPLE 1 definició de variables ###"
+
 nomvariable=22
+
 echo nomvariable #mostra nomvariable
+
 echo $nomvariable #mostra 22
+
 echo '$nomvariable' #mostra $variable a causa de les ' '
+
 echo "$nomvariable" #mostra 22
+
 echo "Variable no definida: $variablenodefinida" #No mostra res
+
 echo --"### FI EXEMPLE 1 ###"--
+
 echo -e "\n"
 
 #EXEMPLE NUMERIC
